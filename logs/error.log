@@ -1,0 +1,1 @@
+{"errno":-2,"code":"ENOENT","syscall":"open","path":"/Users/hamzeen/Desktop/hitcounter/logs/_project-nova.log","_message":"unable to save agent data: /Users/hamzeen/Desktop/hitcounter/logs/_project-nova.log"}

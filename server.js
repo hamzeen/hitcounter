@@ -31,13 +31,18 @@ function handler (req, res) {
       res.end(make_svg(count));        // serve the SVG with count
     });
   }
-  else if (url.match(/project-nova/)) {      // only return a badge if SVG requested
-    hits(hit, function(err, count) {
+  else if (url.match(/nova/)) {      // only return a badge if SVG requested
+    /*hits(hit, function(err, count) {
       io.sockets.emit('hit', { 'hit': format(hit, count) }); // broadcast
-      // console.log(url, ' >> ', count); // log in dev
       res.writeHead(200, HEAD);        // status code and SVG headers
       res.end(make_svg(count));        // serve the SVG with count
+    });*/
+
+    fs.readFile('./lib/nova.html', 'utf8', function (err, data) {
+      res.writeHead(200, {"Content-Type": "text/html"});
+      res.end(data);
     });
+
   }
   else if(url === '/favicon.ico') {
     res.writeHead(301, { "Location": FAVICON }); // redirect to @dwyl Favicon

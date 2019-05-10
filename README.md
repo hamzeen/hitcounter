@@ -5,7 +5,7 @@
 <div align="center">
   
 [![Build Status](https://img.shields.io/travis/dwyl/hits.svg?style=flat-square)](https://travis-ci.org/dwyl/hits)
-[![HitCount](http://hits.dwyl.io/dwyl/hits.svg)](https://github.com/hamzeen/hits)
+[![HitCount](http://hits.dwyl.io/hamzeen/hits.svg)](http://hits.dwyl.io/hamzeen/hits)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/hits/master.svg?style=flat-square)](http://codecov.io/github/dwyl/hits?branch=master)
 [![Dependency Status](https://img.shields.io/david/dwyl/hits.svg?style=flat-square)](https://david-dm.org/dwyl/hits)
 [![devDependency Status](https://img.shields.io/david/dev/dwyl/hits.svg?style=flat-square)](https://david-dm.org/dwyl/hits#info=devDependencies)
